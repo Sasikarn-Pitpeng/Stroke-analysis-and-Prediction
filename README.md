@@ -30,7 +30,7 @@ Data Exploration
 | 3 |	60182 |	Female |	49.0 |	0 |	0 |	Yes |	Private |	Urban |	171.23 |	34.4 |	smokes |	1 |
 | 4 |	1665 |	Female |	79.0 |	1 |	0 |	Yes |	Self-employed |	Rural |	174.12 |	24.0 |	never smoked |	1 |
 
-![image]()
+![image](Stroke-analysis-and-Prediction/download.png/)
 
 
 
