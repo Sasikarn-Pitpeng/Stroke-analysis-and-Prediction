@@ -1,6 +1,5 @@
 # Stroke-analysis-and-Prediction
 ## Table of Contents
-- [Smileys & Emotion](#smileys--emotion)
 - [Dataset](#Dataset)
     - [Data Exploration](#travel--places)
     - [Data Cleansing](#activities)
@@ -15,8 +14,6 @@
 - [Objects](#objects)
 
 
-### Smileys & Emotion
+
 ### Dataset
-- [Dataset](#smileys--emotion)
-- Get the Data From Kaggle
-[Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+- Get the Data From [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
