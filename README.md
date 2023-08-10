@@ -1,6 +1,6 @@
 # Stroke-analysis-and-Prediction
 ## Table of Contents
-- [Dataset](#smileys--emotion)
+- [Dataset](#dataset)
     - [Data Exploration](#travel--places)
     - [Data Cleansing](#activities)
 - [Objective](#people--body)
