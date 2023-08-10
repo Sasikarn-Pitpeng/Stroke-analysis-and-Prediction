@@ -2,7 +2,7 @@
 ## Table of Contents
 - [Dataset](#dataset)
     - [Data Exploration](#data-Exploration)
-    - [Data Cleansing](#activities)
+    - [Data Cleansing](#data-cleansing)
 - [Objective](#people--body)
 - [Techniques](#animals--nature)
     - [Correlation](#travel--places)
@@ -30,7 +30,17 @@
 | 3 |	60182 |	Female |	49.0 |	0 |	0 |	Yes |	Private |	Urban |	171.23 |	34.4 |	smokes |	1 |
 | 4 |	1665 |	Female |	79.0 |	1 |	0 |	Yes |	Self-employed |	Rural |	174.12 |	24.0 |	never smoked |	1 |
 
+> df.hist(bins=30, figsize=(15, 10))
+
 ![image](images/histogram.png)
+
+#### Data Cleansing
+- ตรวจเช็คค่า Null
+- แทนค่าที่เป็น Null ในคอลัมน์ bmi ด้วยค่าเฉลี่ย (Mean)
+- แทนเพศ Other ให้เหลือเพียงเพศชายและหญิง โดยแทนด้วยเพศที่มากกว่า (เพศหญิง)
+- Mapping กับคอลัมน์ที่มีชนิดข้อมูลเป็น String ให้กลายเป็นข้อมูลชนิด Integer (0 หรือ 1)
+- เปลี่ยน Type ของคอลัมน์ age จาก Float ใหเ้ป็น Integer
+- Drop คอลัมน์ที่ไม่ได้ใช้ ในที่นี้เลือก drop คอลัมน์ 'id'  เนื่องจากไม่ใช่ตัวแปรที่มีผลต่อการทำนาย
 
 
 
