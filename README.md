@@ -1,7 +1,7 @@
 # Stroke-analysis-and-Prediction
 ## Table of Contents
 - [Dataset](#dataset)
-    - [Data Exploration](#data-Exploration)
+    - [Data Exploration](#data-exploration)
     - [Data Cleansing](#data-cleansing)
 - [Objective](#people--body)
 - [Techniques](#animals--nature)
